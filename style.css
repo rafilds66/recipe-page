@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    padding: 0px 10px 0px 10px;
+    margin: 10px 0px 10px 0px;
+    font-family: 'Young Serif';
+    font-weight: 400;
+}
+
+.descricao{
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 30px;
+    padding: 10px;
+}
+
+.corpo{
+    background-color: #f1e1d4;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.principal{
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    width: 700px;
+    height: auto;
+    background-color: #ffffff;
+}
+
+.imagem{
+    width:650px;
+    justify-items: center;
+    border-radius: 10px;
+}
+
+.introducao{
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.preparacao h2{
+    font-family: 'Outfit';
+    font-weight: 600;
+    color: #561631;
+    padding-bottom: 20px;
+}
+
+.preparacao ul{
+    margin-left: 20px;
+    font-family: 'Outfit';
+}
+
+.preparacao ul li{
+    padding: 5px;
+}
+
+.preparacao{
+    font-family: 'Outfit';
+    background-color: #fff7fc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.ingredientes h2{
+    margin-left: 20px;
+    font-family: 'Young Serif';
+    font-weight: 400;
+}
+
+.ingredientes ul li{
+    margin-left: 20px;
+    font-family: 'Outfit';
+    padding: 5px;
+}
+
+.ingredientes{
+    padding: 10px;
+    margin: 10px;
+    border-bottom: solid 1px #e7e7e7;
+}
+
+.ingredientes ul{
+    margin: 20px;
+}
+
+.instrucoes{
+    padding: 10px;
+    margin: 10px;
+    border-bottom: solid 1px #e7e7e7;
+    margin-bottom: 20px;
+}
+
+ .instrucoes h2{
+    font-family: 'Young Serif';
+    margin: 0px 0px 20px 20px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    
+} 
+
+.instrucoes ol{
+    list-style: order inside;
+    margin: 0px 0px 20px 20px;
+} 
+
+.instrucoes ol li{
+    font-family: 'Outfit';
+    text-align: justify;
+    line-height: 20px;
+}
+
+.nutricao{
+    padding: 10px 0px 0px 10px;
+    margin: 10px;
+}
+
+.nutricao h2{
+    font-family: 'Young Serif';
+    margin: 0px 0px 20px 20px;
+    font-weight: 400;
+}
+
+.nutricao p{
+    font-family: 'Outfit';
+    font-size: 15px;
+    margin: 0px 0px 20px 20px;
+}
+
+.tabela {
+    font-family: 'Outfit';
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16;
+}
+
+.tabela th, .tabela td {
+    padding: 10px 50px; 
+    text-align: left;
+    border-bottom: 1px solid #e7e7e7; 
+}
+
+.tabela th {
+    font-weight: 500;
+}
+
+
